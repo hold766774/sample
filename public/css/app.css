@@ -8503,6 +8503,14 @@ section.user_info h1 {
   border-radius: 50%;
 }
 
+#logout {
+  cursor: default;
+}
+
+#logout:hover {
+  background-color: transparent;
+}
+
 /* forms */
 
 input,
