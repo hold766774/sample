@@ -171,3 +171,13 @@ input {
 .panel-heading{
   background: gray;
 }
+/* Users edit */
+
+.gravatar_edit {
+  margin: 15px auto;
+  text-align: center;
+  .gravatar {
+    float: none;
+    max-width: 100px;
+  }
+}
