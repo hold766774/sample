@@ -6,7 +6,7 @@
         <a href="{{route('users.show',$user->id)}}">{{$user->name}}</a>
     </span>
     <span class="timestamp">
-        {{$status->created_at->diffForHumans()}}}
+        {{$status->created_at->diffForHumans()}}
     </span>
     <span class="content">
         {{$status->content}}
